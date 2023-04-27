@@ -30,7 +30,7 @@ class FileHelpers {
     }
 }
 
-class Handler implements URLHandler {
+class Handler implements  {
     Path base;
     Handler(String directory) throws IOException {
       this.base = Paths.get(directory);
